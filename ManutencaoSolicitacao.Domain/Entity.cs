@@ -4,5 +4,9 @@
     {
         public Guid Id { get; }
 
+        public Entity() 
+        {
+            Id = Guid.NewGuid();    
+        }
     }
 }
